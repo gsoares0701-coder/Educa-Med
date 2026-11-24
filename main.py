@@ -181,3 +181,5 @@ def checar_resposta(id_resposta: int, checagem: Checagem):
 @app.delete("/sessao", status_code=204)
 def recomecar():
     limpar_todos_os_dados()
+
+    # Meu primeiro teste com Git e GitHub
